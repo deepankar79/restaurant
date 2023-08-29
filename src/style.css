@@ -1,0 +1,84 @@
+body {
+  background-color: #ffebcd;
+}
+
+h1 {
+  color: #ff4742;
+}
+
+h2 {
+  text-align: center;
+}
+.list-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+.list-menu img {
+  width: 32px;
+  height: 32px;
+}
+
+.cts {
+  font-weight: 700;
+}
+.box {
+  width: 70%;
+  background: rgba(255, 68, 68, 0.28);
+  padding: calc(2rem + 2vw);
+  border-radius: 1.2rem;
+  margin: 5rem auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  background-color: green;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/* CSS */
+.btns {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btns:hover,
+.btns:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.btns:active {
+  opacity: 0.5;
+}
